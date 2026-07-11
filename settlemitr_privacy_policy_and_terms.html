@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SettleMitr Privacy Policy and Terms & Conditions" />
+  <title>SettleMitr | Privacy Policy & Terms</title>
+  <style>
+    :root {
+      --brand: #5b4df7;
+      --brand-dark: #4034c8;
+      --accent: #20b486;
+      --ink: #182033;
+      --muted: #667085;
+      --surface: #ffffff;
+      --soft: #f6f7fb;
+      --border: #e5e7eb;
+      --warning-bg: #fff8e7;
+      --warning-border: #f2c14e;
+      --max-width: 1100px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--soft);
+      line-height: 1.65;
+    }
+
+    a {
+      color: var(--brand-dark);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .topbar-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 14px 22px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 800;
+      font-size: 1.15rem;
+      color: var(--ink);
+    }
+
+    .brand-mark {
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
+      border-radius: 12px;
+      color: #fff;
+      background: linear-gradient(135deg, var(--brand), var(--accent));
+      box-shadow: 0 8px 22px rgba(91, 77, 247, 0.25);
+      font-weight: 900;
+    }
+
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 14px;
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
+
+    .nav-links button {
+      border: 0;
+      border-radius: 10px;
+      padding: 9px 14px;
+      background: var(--brand);
+      color: white;
+      cursor: pointer;
+      font: inherit;
+    }
+
+    .hero {
+      background:
+        radial-gradient(circle at top right, rgba(32, 180, 134, 0.18), transparent 34%),
+        radial-gradient(circle at top left, rgba(91, 77, 247, 0.20), transparent 38%),
+        linear-gradient(180deg, #ffffff 0%, #f6f7fb 100%);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .hero-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 70px 22px 52px;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(91, 77, 247, 0.1);
+      color: var(--brand-dark);
+      font-size: 0.82rem;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 18px 0 12px;
+      font-size: clamp(2.3rem, 6vw, 4.4rem);
+      line-height: 1.04;
+      letter-spacing: -0.04em;
+    }
+
+    .hero p {
+      margin: 0;
+      max-width: 760px;
+      color: var(--muted);
+      font-size: 1.08rem;
+    }
+
+    .meta {
+      margin-top: 22px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    .meta span {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 8px 11px;
+    }
+
+    main {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 34px 22px 70px;
+      display: grid;
+      grid-template-columns: 270px minmax(0, 1fr);
+      gap: 28px;
+    }
+
+    .sidebar {
+      position: sticky;
+      top: 84px;
+      align-self: start;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 18px;
+      box-shadow: 0 10px 30px rgba(16, 24, 40, 0.05);
+    }
+
+    .sidebar h2 {
+      margin: 0 0 12px;
+      font-size: 1rem;
+    }
+
+    .sidebar ol {
+      margin: 0;
+      padding-left: 22px;
+    }
+
+    .sidebar li {
+      margin: 7px 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .content {
+      min-width: 0;
+    }
+
+    .notice {
+      background: var(--warning-bg);
+      border: 1px solid var(--warning-border);
+      border-radius: 16px;
+      padding: 16px 18px;
+      margin-bottom: 24px;
+    }
+
+    .notice strong {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    article {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: clamp(24px, 4vw, 44px);
+      box-shadow: 0 14px 40px rgba(16, 24, 40, 0.06);
+      margin-bottom: 30px;
+    }
+
+    article h2 {
+      margin-top: 0;
+      font-size: clamp(1.8rem, 4vw, 2.5rem);
+      letter-spacing: -0.025em;
+    }
+
+    article h3 {
+      margin-top: 32px;
+      margin-bottom: 10px;
+      font-size: 1.22rem;
+      scroll-margin-top: 95px;
+    }
+
+    article h4 {
+      margin-top: 22px;
+      margin-bottom: 8px;
+      font-size: 1rem;
+    }
+
+    article p {
+      margin: 10px 0;
+    }
+
+    article ul {
+      margin-top: 8px;
+      padding-left: 22px;
+    }
+
+    article li {
+      margin: 6px 0;
+    }
+
+    .legal-meta {
+      padding: 14px 16px;
+      border-radius: 14px;
+      background: var(--soft);
+      border: 1px solid var(--border);
+      margin-bottom: 22px;
+    }
+
+    .placeholder {
+      color: #b42318;
+      font-weight: 700;
+      background: #fff1f0;
+      border-radius: 5px;
+      padding: 1px 4px;
+    }
+
+    .section-divider {
+      height: 1px;
+      background: var(--border);
+      margin: 28px 0;
+    }
+
+    footer {
+      padding: 28px 22px 42px;
+      border-top: 1px solid var(--border);
+      background: #fff;
+      color: var(--muted);
+      text-align: center;
+      font-size: 0.92rem;
+    }
+
+    .footer-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+
+    @media (max-width: 880px) {
+      main {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        position: static;
+      }
+
+      .topbar-inner {
+        align-items: flex-start;
+      }
+
+      .nav-links {
+        justify-content: flex-end;
+      }
+    }
+
+    @media (max-width: 620px) {
+      .topbar-inner {
+        flex-direction: column;
+      }
+
+      .nav-links {
+        width: 100%;
+        justify-content: flex-start;
+      }
+
+      .hero-inner {
+        padding-top: 44px;
+      }
+
+      article {
+        padding: 22px 18px;
+      }
+    }
+
+    @media print {
+      body {
+        background: #fff;
+        font-size: 11pt;
+      }
+
+      .topbar,
+      .sidebar,
+      .notice,
+      footer {
+        display: none !important;
+      }
+
+      .hero {
+        border: 0;
+      }
+
+      .hero-inner {
+        padding: 0 0 20px;
+      }
+
+      main {
+        display: block;
+        max-width: none;
+        padding: 0;
+      }
+
+      article {
+        border: 0;
+        box-shadow: none;
+        padding: 0;
+        margin: 0 0 30px;
+        break-after: page;
+      }
+
+      article:last-child {
+        break-after: auto;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#top" aria-label="SettleMitr legal documents">
+        <span class="brand-mark">SM</span>
+        <span>SettleMitr</span>
+      </a>
+      <nav class="nav-links" aria-label="Legal document navigation">
+        <a href="#privacy-policy">Privacy Policy</a>
+        <a href="#terms">Terms &amp; Conditions</a>
+        <button type="button" onclick="window.print()">Print / Save PDF</button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="top">
+    <div class="hero-inner">
+      <span class="eyebrow">Legal Information</span>
+      <h1>Privacy Policy &amp;<br />Terms and Conditions</h1>
+      <p>
+        These documents explain how SettleMitr handles personal information and the rules that apply when users create groups, split expenses, scan bills, share reports or initiate payments through third-party applications.
+      </p>
+      <div class="meta">
+        <span><strong>Effective:</strong> 11 July 2026</span>
+        <span><strong>Last updated:</strong> 11 July 2026</span>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <aside class="sidebar" aria-label="Contents">
+      <h2>Contents</h2>
+      <ol>
+        <li><a href="#privacy-policy">Privacy Policy</a></li>
+        <li><a href="#privacy-information">Information collected</a></li>
+        <li><a href="#privacy-use">How information is used</a></li>
+        <li><a href="#privacy-sharing">How information is shared</a></li>
+        <li><a href="#privacy-deletion">Account and data deletion</a></li>
+        <li><a href="#privacy-rights">Your privacy rights</a></li>
+        <li><a href="#terms">Terms and Conditions</a></li>
+        <li><a href="#terms-payments">Payments and UPI</a></li>
+        <li><a href="#terms-use">Acceptable use</a></li>
+        <li><a href="#terms-liability">Liability</a></li>
+      </ol>
+    </aside>
+
+    <div class="content">
+      
+      <article id="privacy-policy">
+        <h2>SettleMitr Privacy Policy</h2>
+
+        <div class="legal-meta">
+          <strong>Effective Date:</strong> 11 July 2026<br />
+          <strong>Last Updated:</strong> 11 July 2026
+        </div>
+
+        <p>
+          SettleMitr respects your privacy and is committed to protecting your personal information.
+          This Privacy Policy explains how SettleMitr collects, uses, stores, shares and protects information when you use the SettleMitr mobile application, website, support services and related features, collectively referred to as the “Service”.
+        </p>
+
+        <p>
+          SettleMitr is operated by:<br />
+          <strong>Developer/Legal Entity:</strong> <span class="placeholder">CodeMitr</span><br />
+          <strong>Registered Address:</strong> <span class="placeholder">Shri Ganganagar, Rajasthan</span><br />
+          <strong>Privacy Contact:</strong> <span class="placeholder">codemitr@gmail.com</span><br />
+          <strong>Grievance Officer:</strong> <span class="placeholder">codemitr@gmail.com</span>
+        </p>
+
+        <p>By creating an account or using SettleMitr, you acknowledge the practices described in this Privacy Policy.</p>
+
+        <h3 id="privacy-information">1. Information We Collect</h3>
+        <p>The information collected depends on the features you use.</p>
+
+        <h4>1.1 Account and Profile Information</h4>
+        <p>When you register or maintain a SettleMitr account, we may collect:</p>
+        <ul>
+          <li>Your name;</li>
+          <li>Email address;</li>
+          <li>Mobile number;</li>
+          <li>Password in securely processed or hashed form;</li>
+          <li>Profile picture, where provided;</li>
+          <li>User ID and account identifiers;</li>
+          <li>UPI ID, where voluntarily added;</li>
+          <li>Account preferences, including language, appearance and notification settings.</li>
+        </ul>
+        <p>SettleMitr does not ask for or store your UPI PIN, banking password, debit-card PIN or one-time password.</p>
+
+        <h4>1.2 Expense and Group Information</h4>
+        <p>When you create or participate in expenses, groups or personal records, we may process:</p>
+        <ul>
+          <li>Group names and descriptions;</li>
+          <li>Group members and administrators;</li>
+          <li>Expense titles, categories, amounts and currencies;</li>
+          <li>Items, quantities, discounts, taxes and adjustments;</li>
+          <li>Split amounts, shares and allocation rules;</li>
+          <li>Payer and receiver details;</li>
+          <li>Advances, balances, settlements and payment status;</li>
+          <li>Expense dates, notes and comments;</li>
+          <li>Tags, reminders and activity history;</li>
+          <li>Group messages or chat content;</li>
+          <li>Uploaded receipts, bills and supporting files;</li>
+          <li>Exported or shared expense statements.</li>
+        </ul>
+        <p>This information is necessary to calculate balances and provide SettleMitr’s expense-management features.</p>
+
+        <h4>1.3 Contacts Information</h4>
+        <p>
+          With your permission, SettleMitr may access contacts stored on your device so that you can find or add people to groups and expenses.
+          Depending on the feature used, we may process selected contact names, mobile numbers and email addresses.
+        </p>
+        <p>
+          SettleMitr will not intentionally upload your entire address book unless necessary for a feature clearly disclosed to you.
+          You may deny or withdraw contact permission through your device settings.
+        </p>
+        <p>Before adding another person’s information, you should ensure that you have permission to use it for expense coordination.</p>
+
+        <h4>1.4 Bills, Receipts, Camera and Files</h4>
+        <p>When you photograph or upload a bill, SettleMitr may process:</p>
+        <ul>
+          <li>The photograph or uploaded document;</li>
+          <li>Merchant or vendor name;</li>
+          <li>Item descriptions;</li>
+          <li>Quantities and prices;</li>
+          <li>Taxes, discounts, totals and dates;</li>
+          <li>Other text visible in the document.</li>
+        </ul>
+        <p>
+          SettleMitr may use optical character recognition or similar technology to extract information from a bill.
+          Automatically extracted information may be incomplete or inaccurate. You should review it before saving an expense.
+        </p>
+        <p>Camera, photo-library and file permissions are used only when you choose the related feature.</p>
+
+        <h4>1.5 UPI and Settlement Information</h4>
+        <p>SettleMitr may help generate a UPI payment request or redirect you to a compatible UPI application.</p>
+        <p>SettleMitr may process:</p>
+        <ul>
+          <li>The recipient’s UPI ID;</li>
+          <li>Payment amount and description;</li>
+          <li>Transaction reference provided by the payment application;</li>
+          <li>Payment success, failure, pending or cancellation status, where returned;</li>
+          <li>Manually recorded settlement information.</li>
+        </ul>
+        <p>
+          The payment itself is processed by your bank, UPI application, payment service provider or another third party.
+          SettleMitr does not independently access or control your bank account.
+        </p>
+
+        <h4>1.6 Communications and Notifications</h4>
+        <p>We may collect information relating to:</p>
+        <ul>
+          <li>Expense reminders;</li>
+          <li>Group invitations;</li>
+          <li>Settlement requests;</li>
+          <li>Comments and mentions;</li>
+          <li>In-app notifications;</li>
+          <li>Push-notification tokens;</li>
+          <li>Support requests and feedback.</li>
+        </ul>
+        <p>
+          When you share information through WhatsApp, email, SMS or another external application,
+          that service will process the information according to its own privacy policy.
+        </p>
+
+        <h4>1.7 Device and Technical Information</h4>
+        <p>Depending on the version of the Service and the services enabled, we may automatically collect:</p>
+        <ul>
+          <li>Device type and operating-system version;</li>
+          <li>App version;</li>
+          <li>Language and time-zone settings;</li>
+          <li>Device or installation identifiers;</li>
+          <li>IP address;</li>
+          <li>Login timestamps;</li>
+          <li>App interactions;</li>
+          <li>Error logs, crash reports and performance information;</li>
+          <li>Security and fraud-prevention signals.</li>
+        </ul>
+        <p>SettleMitr does not require precise location information for its core expense-management functions.</p>
+
+        <h3 id="privacy-use">2. How We Use Information</h3>
+        <p>We may use your information to:</p>
+        <ul>
+          <li>Create, authenticate and manage your account;</li>
+          <li>Create and manage groups and personal expenses;</li>
+          <li>Calculate individual and group balances;</li>
+          <li>Allocate taxes, discounts and adjustments;</li>
+          <li>Record payments, advances and settlements;</li>
+          <li>Generate summaries, analytics and expense reports;</li>
+          <li>Allow users to share or export PDF statements;</li>
+          <li>Send invitations, reminders and notifications;</li>
+          <li>Enable group discussions, comments and mentions;</li>
+          <li>Scan and extract information from uploaded bills;</li>
+          <li>Redirect users to UPI or other payment applications;</li>
+          <li>Synchronise information across devices;</li>
+          <li>Respond to support requests;</li>
+          <li>Diagnose errors and improve performance;</li>
+          <li>Protect users and prevent misuse or fraud;</li>
+          <li>Comply with legal obligations;</li>
+          <li>Enforce our Terms and Conditions.</li>
+        </ul>
+        <p>
+          We will not use your personal information for purposes materially different from those described here
+          without appropriate notice or consent where required.
+        </p>
+
+        <h3>3. Consent and Permissions</h3>
+        <p>Where processing is based on consent, you may withdraw consent by:</p>
+        <ul>
+          <li>Changing permissions in your device settings;</li>
+          <li>Disabling optional features;</li>
+          <li>Updating your SettleMitr preferences;</li>
+          <li>Deleting information you created;</li>
+          <li>Requesting account deletion;</li>
+          <li>Contacting us through the details provided below.</li>
+        </ul>
+        <p>
+          Withdrawing consent will not affect processing already completed lawfully.
+          Some SettleMitr features may stop working when required permissions are withdrawn.
+        </p>
+
+        <h3 id="privacy-sharing">4. How Information Is Shared</h3>
+
+        <h4>4.1 With Other SettleMitr Users</h4>
+        <p>Information may be visible to other users when necessary for group and expense functionality.</p>
+        <p>For example, group members may see:</p>
+        <ul>
+          <li>Your name and profile information;</li>
+          <li>Expenses involving the group;</li>
+          <li>Amounts paid, owed or received;</li>
+          <li>Split calculations;</li>
+          <li>Settlement records;</li>
+          <li>Comments, messages and activity history;</li>
+          <li>Bills or files shared with the group.</li>
+        </ul>
+        <p>Group administrators may have additional permissions to manage members, expenses and records.</p>
+        <p>Do not enter sensitive personal or financial information in a group unless you are comfortable sharing it with the relevant members.</p>
+
+        <h4>4.2 With Service Providers</h4>
+        <p>We may use trusted service providers for:</p>
+        <ul>
+          <li>User authentication;</li>
+          <li>Cloud database and storage;</li>
+          <li>Application hosting;</li>
+          <li>Push notifications;</li>
+          <li>Crash reporting and performance monitoring;</li>
+          <li>Bill scanning and text extraction;</li>
+          <li>Email or messaging delivery;</li>
+          <li>Customer support;</li>
+          <li>Security and fraud prevention.</li>
+        </ul>
+        <p>
+          These providers may process information only as necessary to provide their services and subject to their contractual and legal obligations.
+          SettleMitr may use Google Firebase services, including Firebase Authentication, Cloud Firestore, Cloud Storage, Cloud Messaging, Cloud Functions,
+          Analytics or Crashlytics, depending on the SettleMitr version and features enabled.
+        </p>
+
+        <h4>4.3 With Payment Applications</h4>
+        <p>
+          When you initiate a UPI transaction, relevant payment information is sent to the UPI application or payment provider selected by you.
+          The payment provider’s terms and privacy policy govern its processing of your information.
+        </p>
+
+        <h4>4.4 For Legal and Safety Reasons</h4>
+        <p>We may disclose information when reasonably necessary to:</p>
+        <ul>
+          <li>Comply with applicable law or a lawful government request;</li>
+          <li>Respond to court orders or legal proceedings;</li>
+          <li>Protect the rights, safety and property of SettleMitr, its users or others;</li>
+          <li>Investigate suspected fraud, abuse or security incidents;</li>
+          <li>Establish, exercise or defend legal claims.</li>
+        </ul>
+
+        <h4>4.5 Business Transfers</h4>
+        <p>
+          If SettleMitr is involved in a merger, acquisition, restructuring, financing or sale of assets,
+          information may be transferred as part of that transaction, subject to applicable law and appropriate safeguards.
+        </p>
+
+        <h3>5. Sale and Advertising</h3>
+        <p>SettleMitr does not sell personal information in exchange for money.</p>
+        <p>
+          If advertising or additional analytics services are introduced, this Privacy Policy and applicable consent options
+          will be updated before relevant information is used for those purposes.
+        </p>
+
+        <h3>6. Data Storage and International Processing</h3>
+        <p>
+          Information may be stored or processed using cloud infrastructure located in India or other countries where our service providers operate.
+          Where information is transferred across borders, we will take reasonable steps to protect it in accordance with applicable law and contractual safeguards.
+        </p>
+
+        <h3>7. Data Retention</h3>
+        <p>We retain personal information only for as long as reasonably necessary to:</p>
+        <ul>
+          <li>Provide the Service;</li>
+          <li>Maintain your account;</li>
+          <li>Preserve group and settlement records;</li>
+          <li>Resolve disputes;</li>
+          <li>Prevent fraud and misuse;</li>
+          <li>Meet legal, accounting or security obligations.</li>
+        </ul>
+        <p>
+          Deleting an individual expense may not immediately remove copies already exported or independently retained by other group members.
+          When your account is deleted, information associated with your account will be deleted or anonymised within a reasonable period,
+          except where retention is required for security, fraud prevention, dispute resolution, legal compliance or protecting the rights of other users.
+        </p>
+        <p>Residual copies may remain temporarily in secure backups until those backups are overwritten through the normal backup cycle.</p>
+
+        <h3 id="privacy-deletion">8. Account and Data Deletion</h3>
+        <p>You may request account deletion through:</p>
+        <p>
+          <strong>In the app:</strong> Settings → Account → Delete Account<br />
+          
+          <strong>Email:</strong> <span class="placeholder">codemitr@gmail.com</span>
+        </p>
+        <p>
+          Subject to applicable law, deleting your account will remove or anonymise personal information associated with your account.
+          Certain group records may be retained in a limited or anonymised form where necessary to preserve the legitimate expense history of other group members.
+          For example, an expense may remain visible as having been created or paid by a “Deleted User”.
+        </p>
+        <p>Before deleting a group or account, you should download any records you wish to retain. Account deletion is permanent and may not be reversible.</p>
+
+        <h3>9. Data Security</h3>
+        <p>We use reasonable technical and organisational safeguards designed to protect information from unauthorised access, alteration, disclosure or destruction.</p>
+        <p>These safeguards may include:</p>
+        <ul>
+          <li>Authentication and access controls;</li>
+          <li>Restricted database rules;</li>
+          <li>Secure network connections;</li>
+          <li>Role-based group permissions;</li>
+          <li>Monitoring and error logging;</li>
+          <li>Backup and recovery procedures;</li>
+          <li>Security reviews and software updates.</li>
+        </ul>
+        <p>
+          No application, network or storage system can be guaranteed to be completely secure.
+          You are responsible for protecting your password, device and account access.
+          Contact us immediately if you suspect unauthorised use of your SettleMitr account.
+        </p>
+
+        <h3 id="privacy-rights">10. Your Privacy Rights</h3>
+        <p>Subject to applicable law, you may have the right to:</p>
+        <ul>
+          <li>Obtain information about how your personal data is processed;</li>
+          <li>Access personal data associated with your account;</li>
+          <li>Correct inaccurate or incomplete information;</li>
+          <li>Update your profile information;</li>
+          <li>Request deletion or erasure;</li>
+          <li>Withdraw consent;</li>
+          <li>Raise a grievance;</li>
+          <li>Nominate another person to exercise certain rights in the event of death or incapacity;</li>
+          <li>Request review of a privacy-related decision.</li>
+        </ul>
+        <p>We may need to verify your identity before completing a request. Requests may be submitted to <span class="placeholder">codemitr@gmail.com</span>.</p>
+
+        <h3>11. Children’s Privacy</h3>
+        <p>
+          SettleMitr is not intended for independent use by persons under 18 years of age.
+          A person under 18 should use the Service only with the involvement and consent of a parent or lawful guardian.
+        </p>
+        <p>
+          We do not knowingly collect personal information from children without appropriate consent.
+          If you believe a child has provided information improperly, contact us so that we can review and delete it where appropriate.
+        </p>
+
+        <h3>12. Third-Party Links and Applications</h3>
+        <p>SettleMitr may contain links or integrations involving:</p>
+        <ul>
+          <li>UPI applications;</li>
+          <li>Banks or payment providers;</li>
+          <li>WhatsApp or messaging applications;</li>
+          <li>Email applications;</li>
+          <li>Cloud-storage applications;</li>
+          <li>App stores;</li>
+          <li>Other external services.</li>
+        </ul>
+        <p>
+          We do not control the privacy or security practices of those services.
+          You should review their terms and privacy policies before using them.
+        </p>
+
+        <h3>13. PDF Exports and Sharing</h3>
+        <p>
+          Expense reports or PDF statements generated by SettleMitr may include personal information relating to you and other group members.
+        </p>
+        <p>You are responsible for:</p>
+        <ul>
+          <li>Checking the report before sharing it;</li>
+          <li>Selecting appropriate recipients;</li>
+          <li>Protecting downloaded or exported files;</li>
+          <li>Avoiding unauthorised disclosure of another person’s information.</li>
+        </ul>
+        <p>Once information is exported from SettleMitr, we may no longer control how it is stored or shared.</p>
+
+        <h3>14. Changes to This Privacy Policy</h3>
+        <p>We may update this Privacy Policy to reflect changes in:</p>
+        <ul>
+          <li>SettleMitr features;</li>
+          <li>Data practices;</li>
+          <li>Technology;</li>
+          <li>Service providers;</li>
+          <li>Legal or regulatory requirements.</li>
+        </ul>
+        <p>
+          The updated policy will display a revised “Last Updated” date.
+          Where required, we will provide additional notice or request renewed consent.
+        </p>
+
+        <h3>15. Contact and Grievance Redressal</h3>
+        <p>
+          <strong>SettleMitr Privacy Team</strong><br />
+          <strong>Developer/Entity:</strong> <span class="placeholder">CodeMitr</span><br />
+          <strong>Email:</strong> <span class="placeholder">codemitr@gmail.com</span><br />
+        </p>
+        <p>
+          <strong>Grievance Officer:</strong> <span class="placeholder">CodeMitr</span><br />
+          <strong>Grievance Email:</strong> <span class="placeholder">codemitr@gmail.com</span>
+        </p>
+        <p>We will acknowledge and address grievances within the period required under applicable law.</p>
+      </article>
+
+      <article id="terms">
+        <h2>SettleMitr Terms and Conditions</h2>
+
+        <div class="legal-meta">
+          <strong>Effective Date:</strong> 11 July 2026<br />
+          <strong>Last Updated:</strong> 11 July 2026
+        </div>
+
+        <p>
+          These Terms and Conditions govern your access to and use of the SettleMitr mobile application, website and related services,
+          collectively referred to as the “Service”.
+        </p>
+
+        <p>
+          The Service is operated by:<br />
+          <strong>Developer/Legal Entity:</strong> <span class="placeholder">CodeMitr</span><br />
+          <strong>Contact Email:</strong> <span class="placeholder">codemitr@gmail.com</span>
+        </p>
+
+        <p>
+          By creating an account, joining a group or using SettleMitr, you agree to these Terms and Conditions and the SettleMitr Privacy Policy.
+          Do not use the Service if you do not agree to these Terms.
+        </p>
+
+        <h3>1. Eligibility</h3>
+        <p>
+          You must be legally capable of entering into a binding agreement to use SettleMitr independently.
+          Persons under 18 years of age may use SettleMitr only with the involvement and permission of a parent or lawful guardian.
+        </p>
+        <p>You represent that the information you provide is accurate and that your use of SettleMitr is permitted under applicable law.</p>
+
+        <h3>2. Description of the Service</h3>
+        <p>SettleMitr is an expense-recording, calculation and coordination application.</p>
+        <p>It may allow users to:</p>
+        <ul>
+          <li>Create personal and group expenses;</li>
+          <li>Add members and contacts;</li>
+          <li>Split expenses using different methods;</li>
+          <li>Allocate items to selected people;</li>
+          <li>Apply taxes, discounts and adjustments;</li>
+          <li>Record advances and settlements;</li>
+          <li>View payable and receivable balances;</li>
+          <li>Upload or scan bills;</li>
+          <li>Generate reports and PDF statements;</li>
+          <li>Send reminders and notifications;</li>
+          <li>Communicate through comments or group chat;</li>
+          <li>Initiate payments through compatible third-party applications.</li>
+        </ul>
+        <p>
+          SettleMitr does not itself provide banking, lending, deposit-taking, insurance, investment, money-transfer,
+          escrow or financial-advisory services.
+        </p>
+
+        <h3>3. Your Account</h3>
+        <p>You may need to create an account to use certain features.</p>
+        <p>You agree to:</p>
+        <ul>
+          <li>Provide accurate and current information;</li>
+          <li>Maintain the confidentiality of your password;</li>
+          <li>Protect access to your mobile device;</li>
+          <li>Notify us of suspected unauthorised access;</li>
+          <li>Accept responsibility for activity performed through your account.</li>
+        </ul>
+        <p>
+          You may not impersonate another person, create an account using another person’s details without permission,
+          or sell or transfer your account.
+        </p>
+        <p>We may suspend access where we reasonably believe an account has been compromised or used unlawfully.</p>
+
+        <h3>4. Expense Calculations</h3>
+        <p>SettleMitr calculates balances based on information entered by users.</p>
+        <p>Calculations may include:</p>
+        <ul>
+          <li>Equal splits;</li>
+          <li>Unequal or percentage-based splits;</li>
+          <li>Item-level allocation;</li>
+          <li>Quantity-based allocation;</li>
+          <li>Taxes;</li>
+          <li>Discounts;</li>
+          <li>Tips and additional charges;</li>
+          <li>Advances;</li>
+          <li>Partial or complete settlements;</li>
+          <li>Currency conversion or rounding.</li>
+        </ul>
+        <p>You are responsible for reviewing every calculation before relying on it.</p>
+        <p>SettleMitr does not guarantee that:</p>
+        <ul>
+          <li>User-entered information is accurate;</li>
+          <li>A scanned bill has been extracted correctly;</li>
+          <li>Tax or discount treatment is legally or commercially correct;</li>
+          <li>A person will pay an amount shown as due;</li>
+          <li>A recorded settlement reflects an actual payment;</li>
+          <li>Rounding will exactly match a merchant’s calculation.</li>
+        </ul>
+        <p>SettleMitr records do not replace invoices, bank statements, tax records, accounting advice or legally binding agreements.</p>
+
+        <h3>5. Groups and Member Responsibilities</h3>
+        <p>Users may create groups and invite other people to participate.</p>
+        <p>Group administrators may be able to:</p>
+        <ul>
+          <li>Add or remove members;</li>
+          <li>Assign administrator permissions;</li>
+          <li>Edit group information;</li>
+          <li>Create, modify or delete expenses;</li>
+          <li>Manage group settings;</li>
+          <li>Revoke or correct settlements;</li>
+          <li>Delete the group, subject to available controls.</li>
+        </ul>
+        <p>
+          A group member’s access and permissions may depend on the group’s settings and assigned role.
+          You must not add a person to a group, publish their contact details or allocate an expense to them without a reasonable basis or appropriate permission.
+        </p>
+        <p>
+          Disagreements concerning expenses, balances, repayments or group administration must be resolved between the relevant users.
+          SettleMitr is not responsible for mediating private financial disputes.
+        </p>
+
+        <h3 id="terms-payments">6. Payments and UPI</h3>
+        <p>SettleMitr may generate payment information or redirect you to an external UPI or payment application.</p>
+        <p>Any payment is processed by the selected bank, UPI application, payment service provider or other third party.</p>
+        <p>SettleMitr:</p>
+        <ul>
+          <li>Is not a bank or payment-system operator;</li>
+          <li>Does not hold user funds;</li>
+          <li>Does not guarantee completion of a payment;</li>
+          <li>Does not control payment-processing times;</li>
+          <li>Does not determine whether a bank accepts or reverses a transaction;</li>
+          <li>Is not responsible for payment-provider downtime;</li>
+          <li>Does not ask for or store your UPI PIN, banking password, debit-card PIN or OTP.</li>
+        </ul>
+        <p>You must verify the recipient, UPI ID, amount and payment description before authorising a payment.</p>
+        <p>
+          A success, failure or pending status displayed by SettleMitr may be based on information returned by another application.
+          Your bank or payment-provider statement remains the primary record of the transaction.
+        </p>
+        <p>Never share your UPI PIN, OTP or banking password with SettleMitr, another SettleMitr user or any person claiming to provide SettleMitr support.</p>
+
+        <h3>7. Recorded and Manual Settlements</h3>
+        <p>SettleMitr may allow users to manually mark an amount as settled. Marking an amount as settled does not independently prove that money was transferred.</p>
+        <p>You should only record a settlement when:</p>
+        <ul>
+          <li>The payment has been completed;</li>
+          <li>Both parties agree that the amount has been settled;</li>
+          <li>The settlement represents a legitimate adjustment;</li>
+          <li>You are authorised to update the relevant record.</li>
+        </ul>
+        <p>
+          Users with appropriate permissions may revoke or correct an incorrect settlement.
+          SettleMitr is not responsible for false or unauthorised settlement entries made by users.
+        </p>
+
+        <h3>8. Bill Scanning and Optical Character Recognition</h3>
+        <p>SettleMitr may use automated technology to extract information from receipts or bills.</p>
+        <p>Automated extraction may:</p>
+        <ul>
+          <li>Misread item names;</li>
+          <li>Omit items;</li>
+          <li>Read the wrong amount;</li>
+          <li>Misinterpret taxes or discounts;</li>
+          <li>Duplicate information;</li>
+          <li>Fail to recognise handwriting;</li>
+          <li>Produce incorrect totals.</li>
+        </ul>
+        <p>You must review and correct all extracted information before saving or sharing the expense.</p>
+        <p>You must not upload a document unless you have the right to use and share it.</p>
+
+        <h3>9. Contacts and Invitations</h3>
+        <p>Where you grant contact permission, SettleMitr may allow you to select people from your device contacts.</p>
+        <p>You are responsible for ensuring that:</p>
+        <ul>
+          <li>You have a legitimate reason to use the person’s details;</li>
+          <li>Invitations and reminders are not unwanted or excessive;</li>
+          <li>Contact information is not used for harassment or spam;</li>
+          <li>Information entered about another person is accurate.</li>
+        </ul>
+        <p>A person appearing in your device contacts is not automatically a registered SettleMitr user.</p>
+
+        <h3>10. Notifications, Reminders and External Sharing</h3>
+        <p>SettleMitr may send push notifications, reminders or group updates.</p>
+        <p>Delivery is not guaranteed and may be affected by:</p>
+        <ul>
+          <li>Device settings;</li>
+          <li>Internet connectivity;</li>
+          <li>Operating-system restrictions;</li>
+          <li>Notification permissions;</li>
+          <li>Third-party service availability.</li>
+        </ul>
+        <p>
+          When you share content through WhatsApp, email, SMS or another application, the external provider’s terms and privacy practices apply.
+          You are responsible for the recipients and content of every message or report you share.
+        </p>
+
+        <h3>11. User Content</h3>
+        <p>“User Content” includes information you create, upload or share through SettleMitr, such as:</p>
+        <ul>
+          <li>Expense information;</li>
+          <li>Group descriptions;</li>
+          <li>Comments and messages;</li>
+          <li>Bills and receipts;</li>
+          <li>Profile images;</li>
+          <li>Tags and notes;</li>
+          <li>Settlement records;</li>
+          <li>Uploaded files.</li>
+        </ul>
+        <p>You retain ownership of your User Content.</p>
+        <p>
+          You grant SettleMitr a limited, non-exclusive licence to host, store, process, reproduce and display User Content
+          only as necessary to operate, secure and improve the Service.
+        </p>
+        <p>You represent that your User Content:</p>
+        <ul>
+          <li>Is accurate to the best of your knowledge;</li>
+          <li>Does not violate another person’s rights;</li>
+          <li>Is not unlawful, defamatory, fraudulent or abusive;</li>
+          <li>Does not contain malware or harmful code;</li>
+          <li>May lawfully be processed by SettleMitr.</li>
+        </ul>
+
+        <h3 id="terms-use">12. Acceptable Use</h3>
+        <p>You must not use SettleMitr to:</p>
+        <ul>
+          <li>Commit fraud or facilitate unlawful transactions;</li>
+          <li>Falsify expenses, settlements or payment confirmations;</li>
+          <li>Harass, threaten or impersonate another person;</li>
+          <li>Send spam or unwanted reminders;</li>
+          <li>Collect personal information without permission;</li>
+          <li>Upload unlawful or infringing content;</li>
+          <li>Attempt to access another user’s account;</li>
+          <li>Bypass access controls or security rules;</li>
+          <li>Reverse-engineer or interfere with the Service, except where legally permitted;</li>
+          <li>Introduce viruses, malware or harmful code;</li>
+          <li>Overload or disrupt SettleMitr infrastructure;</li>
+          <li>Use automated systems to scrape or extract information without authorisation;</li>
+          <li>Misrepresent SettleMitr as a bank, lender or payment provider.</li>
+        </ul>
+        <p>We may restrict or remove content and suspend accounts where we reasonably believe these Terms have been violated.</p>
+
+        <h3>13. PDF Reports and Exports</h3>
+        <p>SettleMitr may allow users to generate and share expense statements.</p>
+        <p>Reports may contain information about multiple people. Before sharing a report, you must:</p>
+        <ul>
+          <li>Confirm that the information is accurate;</li>
+          <li>Ensure that sharing is appropriate;</li>
+          <li>Select the correct recipients;</li>
+          <li>Protect the exported file;</li>
+          <li>Respect the privacy of other group members.</li>
+        </ul>
+        <p>SettleMitr cannot control files after they have been downloaded, forwarded or stored outside the Service.</p>
+
+        <h3>14. Third-Party Services</h3>
+        <p>SettleMitr may rely on or link to third-party services, including:</p>
+        <ul>
+          <li>Firebase and cloud-hosting services;</li>
+          <li>UPI and payment applications;</li>
+          <li>Banks;</li>
+          <li>Messaging and email applications;</li>
+          <li>OCR or bill-scanning providers;</li>
+          <li>Analytics and crash-reporting services;</li>
+          <li>App stores.</li>
+        </ul>
+        <p>We do not control those services and are not responsible for their:</p>
+        <ul>
+          <li>Availability;</li>
+          <li>Security;</li>
+          <li>Content;</li>
+          <li>Fees;</li>
+          <li>Decisions;</li>
+          <li>Errors;</li>
+          <li>Privacy practices;</li>
+          <li>Terms of use.</li>
+        </ul>
+        <p>Your use of a third-party service is governed by your agreement with that provider.</p>
+
+        <h3>15. Fees, Premium Features and Advertising</h3>
+        <p>SettleMitr may offer free features, paid features, subscriptions or advertising.</p>
+        <p>Where payment is required:</p>
+        <ul>
+          <li>The price and billing period will be displayed before purchase;</li>
+          <li>Payments may be processed through an app store or another authorised provider;</li>
+          <li>Taxes may be added where applicable;</li>
+          <li>Refunds will be governed by applicable law and the payment provider’s policies;</li>
+          <li>Subscription renewal terms will be shown before confirmation.</li>
+        </ul>
+        <p>We will not charge you without an authorised purchase. Availability and pricing of features may change, subject to applicable law and notice where required.</p>
+
+        <h3>16. Intellectual Property</h3>
+        <p>
+          SettleMitr, including its name, logo, design, software, interface, graphics, text and original content,
+          is owned by or licensed to <span class="placeholder">CodeMitr</span>.
+        </p>
+        <p>
+          These Terms grant you a limited, personal, non-exclusive, non-transferable and revocable right to use SettleMitr
+          for lawful personal or internal business expense-management purposes.
+        </p>
+        <p>
+          You may not copy, sell, sublicense, distribute or commercially exploit SettleMitr without written permission,
+          except where permitted by law.
+        </p>
+
+        <h3>17. Feedback</h3>
+        <p>
+          You may provide suggestions, ideas or feedback about SettleMitr.
+          You grant us permission to use that feedback without restriction or compensation,
+          provided that we do not publicly identify you without permission.
+        </p>
+
+        <h3>18. Service Availability and Changes</h3>
+        <p>We aim to provide a reliable Service but do not guarantee continuous or uninterrupted availability.</p>
+        <p>SettleMitr may be unavailable because of:</p>
+        <ul>
+          <li>Maintenance;</li>
+          <li>Updates;</li>
+          <li>Network failures;</li>
+          <li>Cloud-provider outages;</li>
+          <li>Security incidents;</li>
+          <li>Legal restrictions;</li>
+          <li>Events outside our reasonable control.</li>
+        </ul>
+        <p>
+          We may add, modify, limit or discontinue features.
+          Where a change materially affects your rights, we will provide notice where reasonably practicable or legally required.
+        </p>
+        <p>You should maintain independent copies of records important for legal, tax, accounting or reimbursement purposes.</p>
+
+        <h3>19. Account Suspension and Termination</h3>
+        <p>You may stop using SettleMitr or delete your account at any time.</p>
+        <p>We may suspend or terminate access where:</p>
+        <ul>
+          <li>You materially violate these Terms;</li>
+          <li>Your activity creates a security risk;</li>
+          <li>Your account is used fraudulently;</li>
+          <li>Continued service would violate applicable law;</li>
+          <li>Payment for a paid feature remains overdue;</li>
+          <li>The Service is discontinued.</li>
+        </ul>
+        <p>Where appropriate, we may provide notice and an opportunity to correct the issue.</p>
+        <p>Termination does not remove obligations or liabilities arising before termination.</p>
+
+        <h3>20. Disclaimer of Warranties</h3>
+        <p>To the extent permitted by law, SettleMitr is provided on an “as is” and “as available” basis.</p>
+        <p>We do not warrant that:</p>
+        <ul>
+          <li>The Service will always be uninterrupted or error-free;</li>
+          <li>Every calculation will be correct;</li>
+          <li>Every payment will be completed;</li>
+          <li>Every user will repay an amount shown as owed;</li>
+          <li>Uploaded or extracted information will be accurate;</li>
+          <li>The Service will meet every accounting, legal or tax requirement;</li>
+          <li>Data will never be lost or accessed unlawfully.</li>
+        </ul>
+        <p>Nothing in these Terms excludes warranties or rights that cannot lawfully be excluded.</p>
+
+        <h3 id="terms-liability">21. Limitation of Liability</h3>
+        <p>
+          To the maximum extent permitted by applicable law, SettleMitr and its developer will not be liable for indirect,
+          incidental, special, consequential or punitive loss arising from:
+        </p>
+        <ul>
+          <li>Reliance on an expense calculation;</li>
+          <li>Failure or reversal of a payment;</li>
+          <li>Disputes between users;</li>
+          <li>Incorrect information entered by a user;</li>
+          <li>Incorrect bill extraction;</li>
+          <li>Unauthorised account access caused by user negligence;</li>
+          <li>Third-party applications or services;</li>
+          <li>Loss of exported or locally stored files;</li>
+          <li>Service interruption;</li>
+          <li>Lost profits, opportunities or anticipated savings.</li>
+        </ul>
+        <p>
+          Where liability cannot be excluded, our aggregate liability will be limited to the amount paid by you for the Service
+          during the 12 months preceding the event giving rise to the claim, or ₹1,000, whichever is greater,
+          unless applicable law requires otherwise.
+        </p>
+        <p>This limitation does not apply to liability that cannot legally be limited.</p>
+
+        <h3>22. Indemnity</h3>
+        <p>To the extent permitted by law, you agree to compensate SettleMitr and its operator for reasonable losses, claims and expenses arising from:</p>
+        <ul>
+          <li>Your unlawful use of the Service;</li>
+          <li>Your material violation of these Terms;</li>
+          <li>User Content uploaded by you;</li>
+          <li>Your infringement of another person’s rights;</li>
+          <li>Fraudulent or unauthorised activity performed through your account.</li>
+        </ul>
+        <p>This provision will not apply to losses caused by SettleMitr’s own unlawful conduct or negligence where liability cannot legally be excluded.</p>
+
+        <h3>23. Governing Law and Dispute Resolution</h3>
+        <p>These Terms are governed by the laws of India.</p>
+        <p>Before commencing formal proceedings, you agree to contact us and attempt to resolve the dispute in good faith.</p>
+        <p>
+          Subject to applicable consumer-protection law, courts located in
+          <span class="placeholder">ShriGanaganagar, Rajasthan</span> will have jurisdiction over disputes relating to SettleMitr.
+        </p>
+        <p>
+          Nothing in these Terms prevents a consumer from using any court, commission or dispute-resolution mechanism
+          available under mandatory applicable law.
+        </p>
+
+        <h3>24. Changes to These Terms</h3>
+        <p>We may update these Terms to reflect changes in the Service, law, technology or business practices.</p>
+        <p>
+          The updated version will display a revised “Last Updated” date.
+          Where a change materially affects your rights, we will provide reasonable notice.
+          Continued use of SettleMitr after the effective date of an update constitutes acceptance of the revised Terms.
+        </p>
+
+        <h3>25. Severability</h3>
+        <p>
+          If any provision of these Terms is held invalid or unenforceable, the remaining provisions will continue in effect.
+          The invalid provision will be interpreted or modified to the minimum extent necessary to make it enforceable where permitted by law.
+        </p>
+
+        <h3>26. Entire Agreement</h3>
+        <p>
+          These Terms, together with the SettleMitr Privacy Policy and any additional terms displayed for a particular feature,
+          constitute the agreement between you and SettleMitr regarding the Service.
+        </p>
+
+        <h3>27. Contact Us</h3>
+        <p>
+          <strong>SettleMitr Support</strong><br />
+          <strong>Developer/Entity:</strong> <span class="placeholder">CodeMitr</span><br />
+          <strong>Email:</strong> <span class="placeholder">codemitr@gmail.com</span><br />
+        </p>
+        <p>
+          <strong>Privacy Email:</strong> <span class="placeholder">codemitr@gmail.com</span><br />
+          <strong>Grievance Officer:</strong> <span class="placeholder">CodeMitr</span>
+        </p>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      © 2026 SettleMitr.
+    </div>
+  </footer>
+</body>
+</html>
